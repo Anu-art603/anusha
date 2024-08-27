@@ -1,0 +1,22 @@
+class Method {
+	void cam()
+	{
+		System.out.println("portrait effect,wide shot");
+	}
+	void call()
+	{
+	
+       System.out.println("performs calling");
+	}
+}
+public class Polymorphism extends Method{
+	void cam()
+	{
+		System.out.println("moon shot,portrait effect,wide short");
+		
+	}
+	public static void main(String[] args) {
+		new Polymorphism().cam();
+	}
+
+}
